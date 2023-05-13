@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kux"
+    android:orientation="vertical"
+    tools:context=".registro">
+
+    <ImageView
+        android:id="@+id/kux"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Registro de usuario."
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_surface"
+        android:textSize="34sp"
+        tools:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="382dp"
+        android:layout_height="312dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/kuxu"
+        android:orientation="vertical"
+        tools:context=".registro">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:context=".registro">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="monospace"
+                android:text="Nombre:"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="monospace"
+                android:text="Apellido:"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="monospace"
+                android:text="Fecha nac"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:context=".registro">
+
+            <EditText
+                android:id="@+id/nom"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="0dp" />
+
+            <EditText
+                android:id="@+id/ape"
+                android:layout_width="123dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="14dp" />
+
+            <EditText
+                android:id="@+id/fecha"
+                android:layout_width="124dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="14dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:context=".registro">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="monospace"
+                android:text="Teléfono:"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="monospace"
+                android:text="Correo:"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="monospace"
+                android:text="Usuario:"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:context=".registro">
+
+            <EditText
+                android:id="@+id/tel"
+                android:layout_width="106dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="0dp" />
+
+            <EditText
+                android:id="@+id/correo"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp" />
+
+            <EditText
+                android:id="@+id/usuario"
+                android:layout_width="118dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="14dp"
+                android:text="Max 10 caracteres"
+                tools:textSize="10sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:context=".registro">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="monospace"
+                android:text="Contraseña:"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="monospace"
+                android:text="Tipo de usuario:"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:context=".registro">
+
+            <EditText
+                android:id="@+id/contra"
+                android:layout_width="127dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="0dp"
+                android:text="Max 6 caracteres"
+                tools:textSize="12sp" />
+
+            <RadioGroup
+                android:id="@+id/tipo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/pac"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:text="paciente" />
+
+                <RadioButton
+                    android:id="@+id/doc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:text="doctor" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Inicio"
+            android:layout_width="304dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="12dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/kux"
+            android:text="Avanzar"
+            android:textSize="20dp"
+            tools:layout_marginBottom="10dp" />
+    </LinearLayout>
+
+</LinearLayout>

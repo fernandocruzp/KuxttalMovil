@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kux"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/kux"
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="313dp"
+        android:layout_height="306dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/kuxu"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/registro"
+            android:layout_width="288dp"
+            android:layout_height="4dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/kux"
+            android:text="Registrarse"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/Inicio"
+            android:layout_width="288dp"
+            android:layout_height="4dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="7dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/kux"
+            android:text="Iniciar Sesión"
+            android:textSize="20dp"
+            tools:layout_marginBottom="15dp" />
+    </LinearLayout>
+
+</LinearLayout>
